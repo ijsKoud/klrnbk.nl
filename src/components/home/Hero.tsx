@@ -2,6 +2,7 @@ import { ChevronRight } from "lucide-react";
 import { FC } from "react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Link from "next/link";
 
 export const HomeHero: FC = () => {
 	return (
@@ -18,8 +19,10 @@ export const HomeHero: FC = () => {
 				</div>
 
 				<div className="flex gap-x-2">
-					<Button variant="default">
-						About myself <ChevronRight />
+					<Button variant="default" asChild>
+						<Link href="/#about-me">
+							About myself <ChevronRight />
+						</Link>
 					</Button>
 					<Button variant="secondary">Write in guestbook</Button>
 				</div>
