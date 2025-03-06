@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
+import { Toaster } from "@/components/ui/sonner";
 
 const interSans = Inter({
 	variable: "--font-inter-sans",
@@ -18,8 +19,9 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html className="scroll-smooth" lang="en">
 			<body className={`${interSans.variable} antialiased`}>{children}</body>
+			<Toaster />
 		</html>
 	);
 }
