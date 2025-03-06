@@ -11,7 +11,7 @@ export const FeaturedWork: FC = () => {
 			<div className="flex flex-col items-center gap-y-5">
 				<h2 className="text-5xl leading-none font-bold">Featured work</h2>
 				<span className="text-base leading-normal font-normal text-center text-muted-foreground">
-					I've worked on a variety of projects, ranging from simple websites to complex applications. Here are a few of my favorites.
+					I&apos;ve worked on a variety of projects, ranging from simple websites to complex applications. Here are a few of my favorites.
 				</span>
 			</div>
 
