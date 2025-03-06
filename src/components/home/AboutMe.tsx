@@ -14,8 +14,8 @@ export const AboutMe: FC = () => {
 					About me
 				</h2>
 				<p className="text-base leading-normal font-normal text-muted-foreground">
-					I'm a {getAge(BIRTHDAY)} year-old full stack developer who's been immersed in the world of coding since 2020. Being mostly
-					self-taught, my passion for open-source projects runs deep. I'm always enthusiastic about learning new technologies and
+					I&apos;m a {getAge(BIRTHDAY)} year-old full stack developer who&apos;s been immersed in the world of coding since 2020. Being mostly
+					self-taught, my passion for open-source projects runs deep. I&apos;m always enthusiastic about learning new technologies and
 					techniques, constantly seeking to broaden my skill set.
 				</p>
 				<div className="flex gap-x-4">
