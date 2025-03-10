@@ -1,8 +1,8 @@
-import { AboutMe } from "@/components/home/AboutMe";
-import { Contact } from "@/components/home/Contact";
-import { FeaturedWork } from "@/components/home/FeaturedWork";
-import { HomeHero } from "@/components/home/Hero";
-import { MainContent } from "@/components/MainContent";
+import { AboutMe } from "@/components/home/about-me";
+import { Contact } from "@/components/home/contact";
+import { FeaturedWork } from "@/components/home/featured-work";
+import { HomeHero } from "@/components/home/hero";
+import { MainContent } from "@/components/main-content";
 
 export default function Home() {
 	return (
