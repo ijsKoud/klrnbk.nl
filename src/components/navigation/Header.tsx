@@ -7,8 +7,8 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 export const Header: FC = () => {
 	return (
 		<div className="w-screen grid place-items-center py-8 fixed z-[9999]">
-			<div className="w-5xl flex justify-end">
-				<div className="flex gap-x-2">
+			<div className="max-w-5xl w-full flex justify-end">
+				<header className="flex gap-x-2">
 					{navigation.map((item, idx) => (
 						<TooltipProvider key={`navigation-item-${idx}`}>
 							<Tooltip>
@@ -24,7 +24,7 @@ export const Header: FC = () => {
 							</Tooltip>
 						</TooltipProvider>
 					))}
-				</div>
+				</header>
 			</div>
 		</div>
 	);
