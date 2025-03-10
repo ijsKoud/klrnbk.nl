@@ -1,5 +1,5 @@
 import type { FC, PropsWithChildren } from "react";
-import { ScrollElementIntoView } from "./ScrollElementIntoView";
+import { ScrollElementIntoView } from "./navigation/scroll-element-into-view";
 
 export const MainContent: FC<PropsWithChildren> = ({ children }) => {
 	return (
