@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../styles/globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import { Header } from "@/components/navigation/Header";
 
 const interSans = Inter({
 	variable: "--font-inter-sans",
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
 	return (
 		<html className="scroll-smooth" lang="en">
-			<body className={`${interSans.variable} antialiased`}>{children}</body>
+			<body className={`${interSans.variable} antialiased`}>
+				<Header />
+				{children}
+			</body>
 			<Toaster />
 		</html>
 	);
