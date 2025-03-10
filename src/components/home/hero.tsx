@@ -7,7 +7,7 @@ import Link from "next/link";
 export const HomeHero: FC = () => {
 	return (
 		<div className="flex justify-between items-center w-full max-md:flex-col-reverse gap-y-8">
-			<div className="flex flex-col gap-y-8">
+			<div className="flex flex-col gap-y-8 max-md:w-full">
 				<div className="flex flex-col gap-y-2">
 					<h1 className="flex flex-col">
 						<span className="text-3xl leading-none font-medium">HEY, MY NAME IS</span>
