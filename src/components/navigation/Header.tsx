@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { navigation } from "@/constants";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import ThemeToggle from "./theme-toggle";
 
 export const Header: FC = () => {
 	return (
@@ -24,6 +25,8 @@ export const Header: FC = () => {
 							</Tooltip>
 						</TooltipProvider>
 					))}
+
+					<ThemeToggle />
 				</header>
 			</div>
 		</div>
