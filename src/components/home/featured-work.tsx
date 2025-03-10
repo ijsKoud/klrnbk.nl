@@ -9,8 +9,8 @@ export const FeaturedWork: FC = () => {
 	return (
 		<div className="flex flex-col items-center gap-y-10">
 			<div className="flex flex-col items-center gap-y-5">
-				<h2 className="text-5xl leading-none font-bold">Featured work</h2>
-				<span className="text-base leading-normal font-normal text-center text-muted-foreground">
+				<h2 className="text-5xl leading-none font-bold max-md:text-xl">Featured work</h2>
+				<span className="text-base leading-normal font-normal text-center text-muted-foreground max-md:text-xs">
 					I&apos;ve worked on a variety of projects, ranging from simple websites to complex applications. Here are a few of my favorites.
 				</span>
 			</div>
