@@ -10,8 +10,8 @@ export const HomeHero: FC = () => {
 			<div className="flex flex-col gap-y-8 max-md:w-full">
 				<div className="flex flex-col gap-y-2">
 					<h1 className="flex flex-col">
-						<span className="text-3xl leading-none font-medium">HEY, MY NAME IS</span>
-						<span className="text-5xl leading-none font-bold text-primary">DAAN KLARENBEEK</span>
+						<span className="text-3xl leading-none font-medium max-md:text-lg">HEY, MY NAME IS</span>
+						<span className="text-5xl leading-none font-bold text-primary max-md:text-2xl">DAAN KLARENBEEK</span>
 					</h1>
 					<p className="max-w-lg text-lg leading-none font-normal text-muted-foreground">
 						Full-stack developer building open-source apps for the internet. Learning something new everyday.
