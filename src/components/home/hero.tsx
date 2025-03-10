@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const HomeHero: FC = () => {
 	return (
-		<div className="flex justify-between items-center w-full">
+		<div className="flex justify-between items-center w-full max-md:flex-col-reverse gap-y-8">
 			<div className="flex flex-col gap-y-8">
 				<div className="flex flex-col gap-y-2">
 					<h1 className="flex flex-col">
@@ -18,7 +18,7 @@ export const HomeHero: FC = () => {
 					</p>
 				</div>
 
-				<div className="flex gap-x-2">
+				<div className="flex gap-2 max-md:flex-col max-md:w-full">
 					<Button variant="default" asChild>
 						<Link href="/#about-me">
 							About myself <ChevronRight />
