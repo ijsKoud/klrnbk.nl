@@ -6,10 +6,10 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 export const ProjectCard: FC<ProjectCardProps> = ({ title, description, image, links }) => {
 	return (
-		<div className="w-md flex flex-col gap-y-4">
-			<div className="w-md h-72 max-h-72 bg-secondary rounded-xl">
+		<div className="w-md flex flex-col gap-y-4 max-md:w-80">
+			<div className="w-md h-72 max-h-72 bg-secondary rounded-xl max-md:max-h-52 max-md:max-w-80">
 				{image && (
-					<AspectRatio className="h-72 overflow-hidden rounded-xl" ratio={16 / 9}>
+					<AspectRatio className="h-72 overflow-hidden rounded-xl max-md:h-52" ratio={16 / 9}>
 						<img src={image} className="object-cover" alt={`Preview of project ${title}`} />
 					</AspectRatio>
 				)}

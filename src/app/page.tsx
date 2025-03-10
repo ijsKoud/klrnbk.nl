@@ -16,7 +16,7 @@ export default function Home() {
 			<div className="flex flex-col gap-y-96 mt-8">
 				<AboutMe />
 				<FeaturedWork />
-				<Contact />
+				{/* <Contact /> */}
 			</div>
 		</MainContent>
 	);
