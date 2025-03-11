@@ -3,6 +3,7 @@ import { ProjectCardProps } from "./components/home/ui/project-card/types";
 import { RecordedDate } from "./lib/types";
 
 export const GITHUB_NAME = "ijskoud";
+export const PROFILE_ICON = `https://github.com/${GITHUB_NAME}.png`;
 
 export const MAX_EMAIL_CONTENT_LENGTH = 4096;
 

@@ -3,6 +3,7 @@ import { FC } from "react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Link from "next/link";
+import { PROFILE_ICON } from "@/constants";
 
 export const HomeHero: FC = () => {
 	return (
@@ -29,7 +30,7 @@ export const HomeHero: FC = () => {
 			</div>
 
 			<Avatar className="size-48">
-				<AvatarImage src="https://github.com/ijskoud.png" alt="Image of Daan Klarenbeek" />
+				<AvatarImage src={PROFILE_ICON} alt="Image of Daan Klarenbeek" />
 				<AvatarFallback>Daan</AvatarFallback>
 			</Avatar>
 		</div>
