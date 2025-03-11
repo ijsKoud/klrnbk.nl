@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# klrnbk.nl
 
-## Getting Started
+✨ My next generation portfolio built with NextJS, shadcn-ui and Tailwind.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Information
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is the next generation portfolio built with Nextjs, shadcn-ui and Tailwind. Equipped with a modern design, dark-mode support and everything a website about myself should need.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> [!NOTE]
+> Make sure to install [pnpm](https://pnpm.io/) and enable corepack using `corepack enable`
 
-## Learn More
+Want to create your own version of this website? Make sure to [fork it](https://github.com/ijskoud/klrnbk.nl/fork) first and edit all the contents in [constants](/apps/web/src/constants.tsx).
 
-To learn more about Next.js, take a look at the following resources:
+After that run `pnpm install` to install all the dependencies, `pnpm run dev` to spin-up the dev version and `pnpm build` to build the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can use `pnpm -run start` to start the application or ship it to [Vercel](https://vercel.com/?utm_source=ijskoud&utm_campaign=oss). Make sure to check the [.env.example](/apps/web/.env.example) file for the required environment variables.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+👤 **Daan Klarenbeek**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Website: <https://klrnbk.nl/>
+- Email: <daan@klrnbk.nl>
+- Github: [@ijsKoud](https://github.com/ijsKoud)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Donate
+
+This will always be open source project, even if I don't receive donations. But there are still people out there that want to donate. Thanks in advance! I really appriciate it <3
+
+## License
+
+Project is licensed under the © [**MIT License**](/LICENSE)
+
+---
