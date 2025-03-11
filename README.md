@@ -33,6 +33,6 @@ This will always be open source project, even if I don't receive donations. But 
 
 ## License
 
-Project is licensed under the © [**MIT License**](/LICENSE)
+Project is licensed under the © [**Apache License**](/LICENSE)
 
 ---
