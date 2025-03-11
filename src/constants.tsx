@@ -5,6 +5,8 @@ import { RecordedDate } from "./lib/types";
 export const GITHUB_NAME = "ijskoud";
 export const PROFILE_ICON = `https://github.com/${GITHUB_NAME}.png`;
 
+export const LINKED_IN_URL = "https://linkedin.com/in/daan-klarenbeek";
+
 export const MAX_EMAIL_CONTENT_LENGTH = 4096;
 
 export const BIRTHDAY: RecordedDate = [2006, 2, 12];
