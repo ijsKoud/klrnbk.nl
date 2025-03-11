@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import { Header } from "@/components/navigation/Header";
 import Providers from "./providers";
 import { PROFILE_ICON } from "@/constants";
+import { Footer } from "@/components/navigation/footer";
 
 const interSans = Inter({
 	variable: "--font-inter-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({
 				<Providers>
 					<Header />
 					{children}
+					<Footer />
 				</Providers>
 			</body>
 		</html>
