@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Inbox } from "lucide-react";
 import { ExperienceCard } from "./ui/experience-card";
 import { getAge } from "@/lib/utils";
-import { BIRTHDAY, CAREER_START } from "@/constants";
+import { BIRTHDAY, CAREER_START, LINKED_IN_URL } from "@/constants";
 import Link from "next/link";
 
 export const AboutMe: FC = () => {
@@ -22,8 +22,8 @@ export const AboutMe: FC = () => {
 				<ExperienceCard className="md:hidden w-full" years={getAge(CAREER_START)} />
 
 				<div className="flex gap-x-4">
-					<Button className="max-md:w-full" variant="default">
-						Learn more
+					<Button className="max-md:w-full" variant="default" asChild>
+						<Link href={LINKED_IN_URL}>Learn more</Link>
 					</Button>
 					<Button className="max-md:w-full" variant="secondary" asChild>
 						<Link href="/#contact">
