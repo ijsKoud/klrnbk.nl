@@ -7,8 +7,8 @@ import ThemeToggle from "./theme-toggle";
 
 export const Header: FC = () => {
 	return (
-		<div className="w-screen grid place-items-center py-8 fixed z-[9999]">
-			<div className="max-w-5xl w-full flex justify-end">
+		<div className="w-screen grid place-items-center py-8 fixed z-[9999] max-md:bottom-0">
+			<div className="max-w-5xl w-full flex justify-end max-md:justify-center">
 				<header className="flex gap-x-2 px-2">
 					{navigation.map((item, idx) => (
 						<TooltipProvider key={`navigation-item-${idx}`}>

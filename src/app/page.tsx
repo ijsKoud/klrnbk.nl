@@ -13,7 +13,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<div className="flex flex-col gap-y-96 mt-8">
+			<div className="flex flex-col gap-y-96 mt-8 max-md:gap-y-72">
 				<AboutMe />
 				<FeaturedWork />
 				<Contact />
