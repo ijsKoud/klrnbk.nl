@@ -2,7 +2,6 @@ import type { NextConfig } from "next";
 import { Redirect } from "next/dist/lib/load-custom-routes";
 
 const nextConfig: NextConfig = {
-	// @ts-expect-error Promise is expected but we do not return a promise as this is not needed
 	redirects: (): Redirect[] => {
 		return [
 			{
