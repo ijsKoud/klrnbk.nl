@@ -3,7 +3,7 @@ import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { GITHUB_NAME } from "@/constants";
-import { Github } from "lucide-react";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 
 export const Footer: FC = () => {
 	return (
@@ -31,7 +31,7 @@ export const Footer: FC = () => {
 					<div className="flex items-center gap-x-8">
 						<Button variant="ghost" size="icon" asChild>
 							<Link href={`https://github.com/${GITHUB_NAME}`}>
-								<Github />
+								<SiGithub />
 							</Link>
 						</Button>
 					</div>
