@@ -1,4 +1,5 @@
-import { Folder, Github, Home, MailOpen } from "lucide-react";
+import { Folder, Home, MailOpen } from "lucide-react";
+import { SiGithub } from "@icons-pack/react-simple-icons";
 import { ProjectCardProps } from "./components/home/ui/project-card/types";
 import { RecordedDate } from "./lib/types";
 
@@ -38,7 +39,7 @@ export const projects: ProjectCardProps[] = [
 		links: [
 			{
 				description: "Github repository",
-				icon: <Github />,
+				icon: <SiGithub />,
 				url: "https://github.com/ijskoud/paperplane"
 			}
 		]
@@ -56,7 +57,7 @@ export const projects: ProjectCardProps[] = [
 		links: [
 			{
 				description: "Github repository",
-				icon: <Github />,
+				icon: <SiGithub />,
 				url: "https://github.com/ijskoud/appiecal"
 			}
 		]
@@ -68,8 +69,8 @@ export const projects: ProjectCardProps[] = [
 		links: [
 			{
 				description: "Github repository",
-				icon: <Github />,
-				url: "https://github.com/ijsKoud/ijsblokje"
+				icon: <SiGithub />,
+				url: "https://github.com/ijskoud/ijsblokje"
 			}
 		]
 	}
