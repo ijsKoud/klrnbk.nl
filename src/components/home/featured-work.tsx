@@ -24,7 +24,7 @@ export const FeaturedWork: FC = () => {
 			</div>
 
 			<Button asChild>
-				<Link href={`https://github.com/${GITHUB_NAME}/repositories`}>
+				<Link href={`https://github.com/${GITHUB_NAME}?tab=repositories`}>
 					View all projects <ChevronRight />
 				</Link>
 			</Button>
