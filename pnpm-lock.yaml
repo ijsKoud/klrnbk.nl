@@ -13,8 +13,8 @@ importers:
   .:
     dependencies:
       '@emailjs/browser':
-        specifier: ^4.4.1
-        version: 4.4.1
+        specifier: ^5.0.3
+        version: 5.0.3
       '@hookform/resolvers':
         specifier: ^5.5.7
         version: 5.5.7(react-hook-form@7.83.0(react@19.2.8))(zod@4.4.3)
@@ -180,8 +180,8 @@ packages:
     resolution: {integrity: sha512-qQ5m48eI/MFLQ5PxQj4PFaprjyCTLI37ElWMmNs0K8Lk3dVeOdNpB3ks8jc7yM5CDmVC73eMVk/trk3fgmrUpA==}
     engines: {node: '>=6.9.0'}
 
-  '@emailjs/browser@4.4.1':
-    resolution: {integrity: sha512-DGSlP9sPvyFba3to2A50kDtZ+pXVp/0rhmqs2LmbMS3I5J8FSOgLwzY2Xb4qfKlOVHh29EAutLYwe5yuEZmEFg==}
+  '@emailjs/browser@5.0.3':
+    resolution: {integrity: sha512-4HGAkWdzql7mrG34ZFFj7IDJNRgtbl1+yVgHdQJ6XSfhq9gxGUHtttr4UKNi7Fk++1hMXRHy1lTeGZrkioOtsw==}
     engines: {node: '>=14.0.0'}
 
   '@emnapi/runtime@1.9.2':
@@ -2401,7 +2401,7 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@emailjs/browser@4.4.1': {}
+  '@emailjs/browser@5.0.3': {}
 
   '@emnapi/runtime@1.9.2':
     dependencies:
