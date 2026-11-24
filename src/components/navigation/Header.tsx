@@ -15,8 +15,10 @@ export const Header: FC = () => {
 							<Tooltip>
 								<TooltipTrigger asChild>
 									<Button variant="outline" size="icon">
-										<Link href={item.href}>{item.icon}</Link>
-										<span className="sr-only">{item.title}</span>
+										<Link href={item.href}>
+											{item.icon}
+											<span className="sr-only">{item.title}</span>
+										</Link>
 									</Button>
 								</TooltipTrigger>
 								<TooltipContent>

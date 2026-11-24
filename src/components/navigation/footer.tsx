@@ -21,7 +21,7 @@ export const Footer: FC = () => {
 							<Link href="/#featured-work">Projects</Link>
 						</Button>
 						<Button variant="ghost" asChild>
-							<Link href="/#contact-me">Contact Me</Link>
+							<Link href="/#contact">Contact Me</Link>
 						</Button>
 						<Button variant="ghost" asChild>
 							<Link href="/guestbook">Guestbook</Link>
