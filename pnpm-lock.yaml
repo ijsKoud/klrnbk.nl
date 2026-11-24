@@ -173,8 +173,8 @@ importers:
         specifier: ^7.0.8
         version: 7.0.8(react-hook-form@7.92.0(@types/react@19.3.0)(react@19.3.1))(zod@4.6.7)
       '@icons-pack/react-simple-icons':
-        specifier: ^13.16.0
-        version: 13.16.0(react@19.3.1)
+        specifier: ^13.15.1
+        version: 13.15.1(react@19.3.1)
       '@radix-ui/react-aspect-ratio':
         specifier: ^1.2.0
         version: 1.2.0(@types/react-dom@19.3.0(@types/react@19.3.0))(@types/react@19.3.0)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -200,8 +200,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       lucide-react:
-        specifier: ^1.78.0
-        version: 1.78.0(@types/react@19.3.0)(react@19.3.1)
+        specifier: ^1.70.0
+        version: 1.70.0(@types/react@19.3.0)(react@19.3.1)
       next:
         specifier: 16.4.6
         version: 16.4.6(@babel/core@7.28.5)(@types/node@26.6.6)(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
@@ -497,8 +497,8 @@ packages:
     resolution: {integrity: sha512-xeO57FpIu4p1Ri3Jq/EXq4ClRm86dVF2z/+kvFnyqVYRavTZmaFaUBbWCOuuTh0o/g7DSsk6kc2vrS4Vl5oPOQ==}
     engines: {node: '>=18.18'}
 
-  '@icons-pack/react-simple-icons@13.16.0':
-    resolution: {integrity: sha512-LOs+OW7CawzA+P6btA2XUQI4vWfAZ17t1b8GoPJjRXCHZN0cVuWJSvMdWjQZzgdgDl/PYJ0NTeGxUwnAmoLpuw==}
+  '@icons-pack/react-simple-icons@13.15.1':
+    resolution: {integrity: sha512-S35E7vJlJzMeoqjwwI7ZmQUJ2W+2KspnB6bc49KdoDGwp5mCgAy9L3sscfWMewQSMgBdPU8KWWwpSGq5DJyAFw==}
     peerDependencies:
       react: ^16.13 || ^17 || ^18 || ^19
 
@@ -2140,8 +2140,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-react@1.78.0:
-    resolution: {integrity: sha512-61NFdT5ZfAY8xs3LWKkB78GVeuiCcjYFEXeHWxWP+mQhP+UWLGsA9hJZQPtIyXRDhOvT8kgmWwAIyH5L7RIhAA==}
+  lucide-react@1.70.0:
+    resolution: {integrity: sha512-gCTPPN1MlQUBtUgdsUv+0CAUj+X8hifRUiRBw4E5v7lvDIOIpx0EZezdGQMSimS8pKA6esvullJub4GYr0mCHA==}
     peerDependencies:
       '@types/react': '*'
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -2859,7 +2859,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@icons-pack/react-simple-icons@13.16.0(react@19.3.1)':
+  '@icons-pack/react-simple-icons@13.15.1(react@19.3.1)':
     dependencies:
       react: 19.3.1
 
@@ -4475,7 +4475,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-react@1.78.0(@types/react@19.3.0)(react@19.3.1):
+  lucide-react@1.70.0(@types/react@19.3.0)(react@19.3.1):
     dependencies:
       react: 19.3.1
     optionalDependencies:
