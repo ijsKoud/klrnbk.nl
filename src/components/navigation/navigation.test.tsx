@@ -7,8 +7,12 @@ import { Header } from "./Header";
 describe("navigation", () => {
 	it("header links to every navigation item", () => {
 		render(<Header />);
-		// Queried by href: the links currently have no accessible name (the sr-only label sits outside the <a>).
-		expect(screen.getAllByRole("link").map((link) => link.getAttribute("href"))).toEqual(navigation.map((item) => item.href));
+		for (const { title, href } of navigation) expect(screen.getByRole("link", { name: title })).toHaveAttribute("href", href);
+	});
+
+	it("footer contact link targets the id used by the contact section", () => {
+		render(<Footer />);
+		expect(screen.getByRole("link", { name: "Contact Me" })).toHaveAttribute("href", "/#contact");
 	});
 
 	it("footer shows the current year and the guestbook link", () => {

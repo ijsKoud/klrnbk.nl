@@ -1,5 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": ["github>ijsKoud/ijsKoud:renovate-config"],
+  "packageRules": [
+		{
+			"description": "typescript-eslint does not support TypeScript >= 6.1 yet",
+			"matchPackageNames": ["typescript"],
+			"allowedVersions": "<6.1"
+		}
+	],
   "schedule": ["before 12pm on Monday", "before 12pm on Thursday"]
 }
